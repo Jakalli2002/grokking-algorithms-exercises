@@ -50,7 +50,7 @@ list of most common run times: sorted from fastest to slowest
 - O(n) - linear time, example: simple search
 - O(n*log n) - example: a fast sorting algorithm, like quicksort
 - O(n^2) - example: a slow sorting algorithm, like selection sort
-- O(n!) - example: a really slow algorithm, like the traveling salesperson
+- O(n!) - factorial time, example: a really slow algorithm, like the traveling salesperson
 
 ## main takeaways
 
