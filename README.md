@@ -6,4 +6,5 @@ This repository contains my notes and exercise solutions from the book Grokking 
 
 - binary search
 - big O notation (running time of an algorithm)
-- binarysearch.py includes both topics
+- binary_search.py includes notes for binary search and the algorithm
+- big_O_notatiom.md includes notes on big O notation
