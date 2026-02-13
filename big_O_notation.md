@@ -25,3 +25,36 @@ it would take a maximum of 7 steps to find a name
 1.2) double the size of the lsit, how many steps now?
 log 256 = 8
 it would take 8 steps at max
+
+## Running Time
+
+linear time: O(n)
+
+- simple search is in linear time, it means that the maximum number of guesses is the same as the size of the list
+- max guesses = list length
+
+logarithmic time (log time): O(log n)
+
+- example is binary search which runs in logarithmic time, as seen by the examples above, it is better than simple search
+
+## big O notation: what is it
+
+- bg O notation is a special notation that tells you how fast an algorithm is
+- big O notation lets u compare the number of opertations not the time in seconds an algorithm runs
+- big O notation: O(number of operations)
+- big O notation is for worst case scenario analysis
+
+list of most common run times: sorted from fastest to slowest
+
+- O(log n) - log time, example: binary search
+- O(n) - linear time, example: simple search
+- O(n*log n) - example: a fast sorting algorithm, like quicksort
+- O(n^2) - example: a slow sorting algorithm, like selection sort
+- O(n!) - example: a really slow algorithm, like the traveling salesperson
+
+## main takeaways
+
+- algorithm speed isnt measured in seconds but in growth of the numbers of operations
+- instead of seconds, we talk about how quickly the run time of an algorithm increases as the size of the input increases
+- run time of algorithms is expressed in big O notation
+- O(log n) is faster than O(n), and gets a lot faster as the list of items youre searching grows
